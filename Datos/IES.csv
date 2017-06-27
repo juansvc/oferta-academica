@@ -1,0 +1,136 @@
+acronimo;nombre;tipo;categoria;sitio_web;n_docentes;n_docentes_phd
+EPN;Escuela Politécnica Nacional;Pública;A;http://www.epn.edu.ec;689;136
+ECOTEC;Universidad Tecnológica ECOTEC;Particular;C;http://www.universidadecotec.edu.ec;140;6
+ESPAM;Escuela Superior Politécnica Agropecuaria de Manabí;Pública;C;http://www.espam.edu.ec;175;9
+ESPOCH;Escuela Superior Politécnica de Chimborazo;Pública;B;http://www.espoch.edu.ec;1001;32
+ESPOL;Escuela Superior Politécnica del Litoral;Pública;A;http://www.espol.edu.ec;885;176
+IKIAM;Universidad Regional Amazónica IKIAM;Pública;UE;http://universidadikiam.edu.ec;35;29
+PUCE;Pontificia Universidad Católica del Ecuador;Particular;B;http://www.puce.edu.ec;2702;155
+SEK;Universidad Particular Internacional SEK;Particular;B;http://www.uisek.edu.ec;107;12
+U ARTES;Universidad de las Artes;Pública;UE;http://www.uartes.edu.ec;91;12
+U HEMISFERIOS;Universidad de los Hemisferios;Particular;B;http://www.uhemisferios.edu.ec;158;18
+U ISRAEL;Universidad Tecnológica Israel;Particular;C;http://www.uisrael.edu.ec;54;11
+U OTAVALO;Universidad de Otavalo;Particular;C;http://www.uotavalo.edu.ec;41;5
+U PACÍFICO;Universidad del Pacífico Escuela de Negocios;Particular;C;http://www.upacifico.edu.ec;59;7
+U CUENCA;Universidad de Cuenca;Pública;A;http://www.ucuenca.edu.ec;1257;92
+UAE;Universidad Agraria del Ecuador;Pública;C;http://www.uagraria.edu.ec;322;10
+UAZUAY;Universidad del Azuay;Particular;B;http://www.uazuay.edu.ec;534;25
+UCACUE;Universidad Católica de Cueca;Pública;B;http://www.ucacue.edu.ec;996;28
+UCE;Universidad Central del Ecuador;Pública;B;http://www.uce.edu.ec;2003;77
+UCG;Universidad Casa Grande;Particular;B;http://www.casagrande.edu.ec;188;5
+UCSG;Universidad Católica Santiago de Guayaquil;Particular;B;http://www2.ucsg.edu.ec/;1512;33
+UCT;Universidad de Especialidades Turísticas;Particular;C;http://www.uct.edu.ec;51;0
+UDLA;Universidad de las Américas;Particular;B;http://www.udla.edu.ec;939;60
+UEA;Universidad Estatal Amazónica;Pública;B;http://www.uea.edu.ec;129;42
+UEB;Universidad Estatal de Bolívar;Pública;C;http://www.ueb.edu.ec;342;17
+UEES;Universidad Particular de Especialidades Espíritu Santo;Particular;A;http://www.uess.me;248;17
+UFA-ESPE;Universidad de las Fuerzas Armadas ESPE;Pública;A;http://www.espe.edu.ec;1257;82
+UG;Universidad de Guayaquil;Pública;B;http://www.ug.edu.ec;3383;52
+UIDE;Universidad Internacional del Ecuador;Particular;B;http://www.uide.edu.ec;402;18
+ULEAM;Universidad Laica Eloy Alfaro de Manabí;Pública;C;http://www.uleam.edu.ec;1321;31
+ULVR;Universidad Laica Vicente Rocafuerte de Guayaquil;Particular;C;http://www.ulvr.edu.ec;379;17
+UMET;Universidad Metropolitana;Particular;C;http://www.umet.edu.ec;201;36
+UNACH;Universidad Nacional de Chimborazo;Pública;C;http://www.unach.edu.ec;899;37
+UNAE;Universidad Nacional de Educación UNAE;Pública;UE;http://www.unae.edu.ec/;53;27
+UNEMI;Universidad Estatal de Milagro;Pública;B;http://www.unemi.edu.ec;247;16
+UNESUM;Universidad Estatal del Sur de Manabí;Pública;C;http://www.unesum.edu.ec;322;15
+UNIANDES;Universidad Regional Autónoma de los Andes;Particular;C;http://www.uniandes.edu.ec;709;16
+UNIBE;Universidad Iberoamericana del Ecuador;Particular;B;http://www.unibe.edu.ec;67;6
+UNL;Universidad Nacional de Loja;Pública;B;http://www.unl.edu.ec;674;17
+UPEC;Universidad Politécnica Estatal del Carchi;Pública;B;http://www.upec.edu.ec;126;6
+UPS;Universidad Politécnica Salesiana;Particular;B;http://www.ups.edu.ec;1224;59
+UPSE;Universidad Estatal Península de Santa Elena;Pública;C;http://www.upse.edu.ec;264;14
+USFQ;Universidad San Francisco de Quito;Particular;A;http://www.usfq.edu.ec;742;153
+USGP;Universidad Particular San Gregorio de Portoviejo;Particular;C;http://www.sangregorio.edu.ec;177;1
+UT MACHALA;Universidad Técnica de Machala;Pública;B;http://www.utmachala.edu.ec;672;19
+UTA;Universidad Técnica de Ambato;Pública;B;http://www.uta.edu.ec;948;62
+UTB;Universidad Técnica de Babahoyo;Pública;C;http://www.utb.edu.ec;416;3
+UTC;Universidad Técnica de Cotopaxi;Pública;C;http://www.utc.edu.ec;409;28
+UTE;Universidad Técnica Equinoccial;Particular;B;http://www.ute.edu.ec;1209;51
+UTEG;Universidad Tecnológica Empresarial de Guayaquil;Particular;B;http://www.uteg.edu.ec;66;8
+UTELVT;Universidad Técnica Luis Vargas Torres de Esmeraldas;Pública;C;http://www.utelvt.edu.ec;308;8
+UTEQ;Universidad Técnica Estatal de Quevedo;Pública;B;http://www.uteq.edu.ec;372;23
+UTI;Universidad Tecnológica Indoamericana;Particular;B;http://www.uti.edu.ec;316;12
+UTM;Universidad Técnica de Manabí;Pública;B;http://www.utm.edu.ec;963;34
+UTN;Universidad Técnica del Norte;Pública;B;http://www.utn.edu.ec;841;50
+UTPL;Universidad Técnica Particular de Loja;Particular;B;http://www.utpl.edu.ec;1338;92
+YACHAY;Universidad de Investigación de Tecnología Experimental YACHAY;Pública;UE;http://www.yachay.gob.ec;105;59
+FLACSO;Facultad Latinoamericana de Ciencias Sociales;Pública;A;http://www.flacso.org.ec;105;97
+IAEN;Instituto de Altos Estudios Nacionales;Pública;B;http://www.iaen.edu.ec;63;22
+UASB;Universidad Andina Simón Bolívar;Pública;A;http://www.uasb.edu.ec;265;93
+UFSM;Universidad Técnica Federico Santa María;Particular;B;http://www.usm.edu.ec;88;3
+EXTERIOR;Generica;;;;;
+CONSRV PARTICULAR DE ARTE ANTÓN BRUKNER;Conservatorio Particular de Arte Antón Brukner;Particular;;;;
+CONSRV SUPERIOR DE MÚSICA JAIME MOLA;Conservatorio Superior de Música Jaime Mola;Particular;;;;
+CONSRV SUPERIOR DE MÚSICA RIMSKY KORSAKOV;Conservatorio Superior de Música Rimsky Korsakov;Particular;;;;
+CONSRV SUPERIOR LA MERCED;Conservatorio Superior de Música, Teatro y Danza La Merced;Particular;;;;
+CONSRV SUPERIOR JOSÉ MARÍA RODRÍGUEZ;Conservatorio Superior José María Rodríguez;Pública;;;;
+CONSRV SUPERIOR NACIONAL DE MÚSICA;Conservatorio Superior Nacional de Música;Pública;;www.conservatorionacional.com.ec;;
+CONSRV SUPERIOR SALVADOR BUSTAMANTE CELI;Conservatorio Superior Salvador Bustamante Celi;Pública;;;;
+IS  DE MÚSICA INES COBO DONOSO;Instituto Superior de Música Inés Cobo Donoso;Pública;;;;
+IS  PEDAGÓGICO CANELOS - BILINGÜE INTERCULTURAL;Instituto Superior Pedagógico Canelos - Bilingüe Intercultural;Pública;;;;
+IS  PEDAGÓGICO JAIME ROLDÓS AGUILERA - BILINGÜE INTERCULTURAL;Instituto Superior Pedagógico Jaime Roldós Aguilera - Bilingüe Intercultural;Pública;;;;
+IS  PEDAGÓGICO MACAC - BILINGÜE INTERCULTURAL;Instituto Superior Pedagógico Macac - Bilingüe Intercultural;Particular;;;;
+IS  PEDAGÓGICO MARTHA BUCARAM DE ROLDÓS;Instituto Superior Pedagógico Martha Bucaram de Roldós;Pública;;;;
+IS  PEDAGÓGICO QUILLOAC - BILINGÜE INTERCULTURAL;Instituto Superior Pedagógico Quilloac - Bilingüe Intercultural;Pública;;;;
+ITS COTOPAXI;Instituto Superior Tecnológico Cotopaxi;Pública;;;;
+ITS INTERNACIONAL;Instituto Superior Tecnológico Internacional ITI;Particular;;www.ithi.edu.ec;;
+ITS TSACHILA;Instituto Superior Tecnológico Tsáchila;Pública;; http://www.institutojme.edu.ec/;;
+ITE-S ALFONSO AGUILAR RUILOVA;Instituto Técnico Superior Alfonso Aguilar Ruilova;Particular;;;;
+ITE-S AMERICANO;Instituto Técnico Superior Americano;Particular;;;;
+ITE-S CINCO DE AGOSTO;Instituto Técnico Superior Cinco de Agosto;Pública;;;;
+ITE-S DEL CHIMBORAZO;Instituto Técnico Superior del Chimborazo;Particular;;;;
+ITE-S DYBRAIN;Instituto Técnico Superior Dybrain;Particular;;;;
+ITE-S EUGENIO ESPEJO;Instituto Técnico Superior Eugenio Espejo;Pública;;www.eugenioespejo.edu.ec;;
+ITE-S HECTOR MORALES;Instituto Técnico Superior Hector Morales;Particular;;;;
+ITE-S JAIME ROLDÓS AGUILERA;Instituto Técnico Superior Jaime Roldós Aguilera;Particular;;;;
+ITE-S OLIMPIA;Instituto Técnico Superior Olimpia;Particular;;;;
+ITE-S REY DAVID;Instituto Técnico Superior Rey David;Particular;;;;
+ITE-S SHALON;Instituto Técnico Superior Shalon;Particular;;;;
+ITS 17 DE JULIO;Instituto Tecnológico Superior 17 de Julio;Pública;;;;
+ITS VEINTICUATRO DE MAYO;Instituto Tecnológico Superior 24 de Mayo;Pública;;http://www.its24demayo.edu.ec;;
+ITS ADVENTISTA DEL ECUADOR;Instituto Tecnológico Superior Adventista del Ecuador;Particular;;;;
+ITSA;Instituto Tecnológico Superior Aeronáutico;Pública;;;;
+ITS AGUIRRE ABAD;Instituto Tecnológico Superior Aguirre Abad;Pública;;http://www.itsaa.edu.ec/;;
+ITS ALBERTO ENRÍQUEZ;Instituto Tecnológico Superior Alberto Enríquez;Pública;;;;
+ITS ALEMAN;Instituto Tecnológico Superior Aleman;Particular;;www.sistemadual.ec;;
+ITS ALFONSO HERRERA;Instituto Tecnológico Superior Alfonso Herrera;Pública;;www.itah.edu.ec;;
+ITS ALIANZA;Instituto Tecnológico Superior Alianza;Particular;;;;
+ITS ALMIRANTE ILLINGWORTH;Instituto Tecnológico Superior Almirante Illingorth;Particular;;;;
+ITS ALOASI;InstitutoInstituto Tecnológico Superior Aloasi;Pública;;www.itsa.edu.ec;;
+ITS AMERICAN COLLEGE;InstitutoInstituto Tecnológico Superior American College;Particular;;http://www.americancollege.edu.ec/;;
+ITS AMERICAN JUNIOR COLLEGE;InstitutoInstituto Tecnológico Superior American Junior College;Particular;;;;
+ITS ANA PAREDES DE ALFARO;InstitutoInstituto Tecnológico Superior Ana Paredes de Alfaro;Pública;;;;
+ITS ANDRES F. CÓRDOVA;InstitutoInstituto Tecnológico Superior Andres F. Córdova;Pública;;;;
+ITS ANGEL POLIBIO CHAVES;InstitutoInstituto Tecnológico Superior Angel Polibio Chaves;Pública;;www.itsapch.edu.ec;;
+ITS ARGOS;InstitutoInstituto Tecnológico Superior Argos;Particular;;;;
+ITS ATLANTIC;InstitutoInstituto Tecnológico Superior Atlantic;Particular;;;;
+ITS BABAHOYO;InstitutoInstituto Tecnológico Superior Babahoyo;Pública;;www.tecnologicobabahoyo.com;;
+ITS BAÑOS;Instituto Tecnológico Superior Baños;Pública;;www.istb.edu.ec;;
+ITS BEATRÍZ CUEVA DE AYORA;Instituto Tecnológico Superior Beatriz Cueva de Ayora;Pública;;http://www.itsbca.edu.ec/;;
+ITS BENITO JUAREZ;Instituto Tecnológico Superior Benito Juarez;Pública;;http://institutobenitojuarez.edu.ec/;;
+ITS BENJAMÍN ARAUJO;Instituto Tecnológico Superior Benjamín Araujo;Pública;;www.itsbenjaminaraujo.edu.ec;;
+ITS BENJAMÍN ROSALES PAREJA;Instituto Tecnológico Superior Benjamín Rosales Pareja;Particular;;;;
+ITS BERNARDO O´HIGGINS;Instituto Tecnológico Superior Bernardo O’Higgins;Particular;;www.instituto-ohiggins.com;;
+ITS BLUE HILL;Instituto Tecnológico Superior Blue Hill;Particular;;www.bluehill.edu.ec;;
+ITS BOLÍVAR;Instituto Tecnológico Superior Bolívar;Pública;;www.itsbolivar.ec;;
+ITS BOLÍVAR MADERO VARGAS;Instituto Tecnológico Superior Bolívar Madero Vargas;Particular;;;;
+ITS BOLIVARIANO;Instituto Tecnológico Superior Bolívariano;Particular;;;;
+ITS BOLIVARIANO DE TECNOLOGÍA;Instituto Tecnológico Superior Bolívariano de Tecnología;Particular;;www.bolivariano.edu.ec;;
+ITS CALAZACON;Instituto Tecnológico Superior Calazacon;Pública;;http://www.itscalazaconsd.com/;;
+IS  PEDAGÓGICO CARIAMANGA;Instituto Tecnológico Superior Cariamanga;Pública;;www.tecnologicocariamanga.edu.ec;;
+ITS CARLOS CISNEROS;Instituto Tecnológico Superior Carlos Cisneros;Pública;;www.cisnerinos.com;;
+ITS CELINA VIVAR ESPINOSA;Instituto Tecnológico Superior Celina Vivar Espinosa;Particular;;;;
+ITS CEMLAD;Instituto Tecnológico Superior CEMLAD;Particular;;;;
+ITS CENESTUR;Instituto Tecnológico Superior CENESTUR;Particular;;http://www.cenestur.edu.ec/;;
+ITS CENTRAL TÉCNICO;Instituto Tecnológico Superior Central Técnico;Pública;;;;
+IS CENTRO TECNOLÓGICO NAVAL;Instituto Tecnológico Superior Centro Tecnológico Naval;Pública;;;;
+ITS CINCO DE JUNIO;Instituto Tecnológico Superior Cinco de Junio;Pública;;www.ipscincodejunio.edu.ec;;
+ITS CIUDAD DE VALENCIA;Instituto Tecnológico Superior Ciudad de Valencia;Pública;;;;
+ITS COMPU SUR;Instituto Tecnológico Superior Compu Sur;Particular;;;;
+ITS CONSEJO PROVINCIAL DE PICHINCHA;Instituto Tecnológico Superior Consejo Provincial de Pichincha;Pública;;;;
+ITS CORDILLERA;Instituto Tecnológico Superior Cordillera;Particular;;www.cordillera.edu.ec;;
+ITS CORPORATIVO EDWARDS  DEMING;Instituto Tecnológico Superior Corporativo Edwards Deming;Particular;;http://www.tecnologicodeming.edu.ec/;;
+ITS COTACACHI;Instituto Tecnológico Superior Cotacachi;Pública;;www.iticc.com;;
+ITS CRECERMAS;Instituto Tecnológico Superior CrecerMas;Particular;;;;
+;;;;;;
