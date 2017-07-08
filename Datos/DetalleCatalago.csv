@@ -1,537 +1,537 @@
-nombres;id_catalogo;id_detalle
-Europa;1;
-Asia;1;
-África;1;
-Oceanía;1;
-América del Norte;1;
-América del Sur;1;
-América Central;1;
-Antártida;1;
-Antártida;2;8
-Afganistán;2;2
-Albania;2;1
-Alemania;2;1
-Algeria;2;3
-Andorra;2;1
-Angola;2;3
-Anguila;2;3
-Antigua y Barbuda;2;7
-Antillas Neerlandesas;2;3
-Arabia Saudita;2;2
-Argentina;2;6
-Armenia;2;2
-Aruba;2;7
-Australia;2;4
-Austria;2;1
-Azerbayán;2;2
-Bélgica;2;1
-Bahamas;2;7
-Bahrein;2;2
-Bangladesh;2;2
-Barbados;2;7
-Belice;2;7
-Benín;2;3
-Bhután;2;2
-Bielorrusia;2;1
-Birmania;2;2
-Bolivia;2;6
-Bosnia y Herzegovina;2;1
-Botsuana;2;3
-Brasil;2;6
-Brunéi;2;2
-Bulgaria;2;1
-Burkina Faso;2;3
-Burundi;2;3
-Cabo Verde;2;3
-Camboya;2;2
-Camerún;2;3
-Canadá;2;5
-Chad;2;3
-Chile;2;6
-China;2;2
-Chipre;2;1
-Ciudad del Vaticano;2;1
-Colombia;2;6
-Comoras;2;3
-Congo;2;3
-Corea del Norte;2;2
-Corea del Sur;2;2
-Costa de Marfil;2;3
-Costa Rica;2;7
-Croacia;2;1
-Cuba;2;7
-Dinamarca;2;1
-Dominica;2;7
-Ecuador;2;6
-Egipto;2;3
-El Salvador;2;7
-Emiratos Árabes Unidos;2;2
-Eritrea;2;3
-Eslovaquia;2;1
-Eslovenia;2;1
-España;2;1
-Estados Unidos de América;2;5
-Estonia;2;1
-Etiopía;2;3
-Filipinas;2;2
-Finlandia;2;1
-Fiyi;2;4
-Francia;2;1
-Gabón;2;3
-Gambia;2;3
-Georgia;2;2
-Ghana;2;3
-Gibraltar;2;3
-Granada;2;7
-Grecia;2;1
-Groenlandia;2;3
-Guadalupe;2;3
-Guam;2;3
-Guatemala;2;7
-Guayana Francesa;2;3
-Guernsey;2;3
-Guinea;2;3
-Guinea Ecuatorial;2;3
-Guinea-Bissau;2;3
-Guyana;2;6
-Haití;2;7
-Honduras;2;7
-Hong kong;2;3
-Hungría;2;1
-India;2;2
-Indonesia;2;2
-Irán;2;2
-Irak;2;2
-Irlanda;2;1
-Isla Bouvet;2;3
-Isla de Man;2;3
-Isla de Navidad;2;3
-Isla Norfolk;2;3
-Islandia;2;1
-Islas Bermudas;2;3
-Islas Caimán;2;3
-Islas Cocos (Keeling);2;3
-Islas Cook;2;3
-Islas de Åland;2;3
-Islas Feroe;2;3
-Islas Georgias del Sur y Sandwich del Sur;2;3
-Islas Heard y McDonald;2;3
-Islas Maldivas;2;3
-Islas Malvinas;2;3
-Islas Marianas del Norte;2;3
-Islas Marshall;2;4
-Islas Pitcairn;2;3
-Islas Salomón;2;4
-Islas Turcas y Caicos;2;7
-Islas Ultramarinas Menores de Estados Unidos;2;3
-Islas Vírgenes Británicas;2;7
-Islas Vírgenes de los Estados Unidos;2;3
-Israel;2;2
-Italia;2;1
-Jamaica;2;3
-Japón;2;2
-Jersey;2;3
-Jordania;2;2
-Kazajistán;2;2
-Kenia;2;3
-Kirgizstán;2;2
-Kiribati;2;4
-Kuwait;2;2
-Líbano;2;2
-Laos;2;2
-Lesoto;2;3
-Letonia;2;1
-Liberia;2;3
-Libia;2;3
-Liechtenstein;2;1
-Lituania;2;1
-Luxemburgo;2;1
-México;2;5
-Mónaco;2;1
-Macao;2;3
-Macedônia;2;1
-Madagascar;2;3
-Malasia;2;2
-Malawi;2;3
-Mali;2;3
-Malta;2;1
-Marruecos;2;3
-Martinica;2;3
-Mauricio;2;3
-Mauritania;2;3
-Mayotte;2;3
-Micronesia;2;4
-Moldavia;2;1
-Mongolia;2;2
-Montenegro;2;1
-Montserrat;2;3
-Mozambique;2;3
-Namibia;2;3
-Nauru;2;4
-Nepal;2;2
-Nicaragua;2;7
-Niger;2;3
-Nigeria;2;3
-Niue;2;3
-Noruega;2;1
-Nueva Caledonia;2;3
-Nueva Zelanda;2;4
-Omán;2;2
-Países Bajos;2;1
-Pakistán;2;2
-Palau;2;4
-Palestina;2;3
-Panamá;2;7
-Papúa Nueva Guinea;2;4
-Paraguay;2;6
-Perú;2;6
-Polinesia Francesa;2;3
-Polonia;2;1
-Portugal;2;1
-Puerto Rico;2;7
-Qatar;2;3
-Reino Unido;2;1
-República Centroafricana;2;3
-República Checa;2;1
-República Dominicana;2;7
-Reunión;2;3
-Ruanda;2;3
-Rumanía;2;1
-Rusia;2;1
-Sahara Occidental;2;3
-Samoa;2;4
-Samoa Americana;2;3
-San Bartolomé;2;3
-San Cristóbal y Nieves;2;3
-San Marino;2;1
-San Martín (Francia);2;3
-San Pedro y Miquelón;2;3
-San Vicente y las Granadinas;2;3
-Santa Elena;2;3
-Santa Lucía;2;7
-Santo Tomé y Príncipe;2;3
-Senegal;2;3
-Serbia;2;1
-Seychelles;2;3
-Sierra Leona;2;3
-Singapur;2;2
-Siria;2;2
-Somalia;2;3
-Sri lanka;2;2
-Sudáfrica;2;3
-Sudán;2;3
-Suecia;2;1
-Suiza;2;1
-Surinám;2;6
-Svalbard y Jan Mayen;2;3
-Swazilandia;2;3
-Tadjikistán;2;2
-Tailandia;2;2
-Taiwán;2;3
-Tanzania;2;3
-Territorio Británico del Océano Índico;2;3
-Territorios Australes y Antárticas Franceses;2;3
-Timor Oriental;2;2
-Togo;2;3
-Tokelau;2;3
-Tonga;2;4
-Trinidad y Tobago;2;7
-Tunez;2;3
-Turkmenistán;2;3
-Turquía;2;2
-Tuvalu;2;4
-Ucrania;2;1
-Uganda;2;3
-Uruguay;2;6
-Uzbekistán;2;2
-Vanuatu;2;4
-Venezuela;2;6
-Vietnam;2;2
-Wallis y Futuna;2;3
-Yemen;2;2
-Yibuti;2;3
-Zambia;2;3
-Zimbabue;2;3
-Zona 1;3;64
-Zona 2;3;64
-Zona 3;3;64
-Zona 4;3;64
-Zona 5;3;64
-Zona 6;3;64
-Zona 7;3;64
-Azuay;4;259
-Bolívar;4;258
-Cañar;4;259
-Carchi;4;254
-Chimborazo;4;256
-Cotopaxi;4;256
-El Oro;4;260
-Esmeraldas;4;254
-Galápagos;4;258
-Guayas;4;258
-Imbabura;4;254
-Loja;4;260
-Los Ríos;4;258
-Manabí;4;257
-Morona Santiago;4;259
-Napo;4;255
-Orellana;4;255
-Pastaza;4;256
-Pichincha;4;255
-Santa Elena;4;258
-Santo Domingo de los Tsáchilas;4;257
-Sucumbíos;4;254
-Tunguragua;4;256
-Zamora Chinchipe;4;260
-Cuenca;5;261
-Gualaceo;5;261
-Paute;5;261
-Santa Isabel;5;261
-Girón;5;261
-Nabon;5;261
-Pucara;5;261
-San Fernando;5;261
-Sigsig;5;261
-Caluma;5;262
-Chillanes;5;262
-Echeandía;5;262
-Guaranda;5;262
-La Asunción;5;262
-La Magdalena;5;262
-San José De Chimbo;5;262
-San Miguel;5;262
-Las Naves;5;262
-Azogues;5;263
-Cañar;5;263
-La Troncal;5;263
-Biblian;5;263
-Bolívar;5;264
-El Angel;5;264
-Huaca;5;264
-Julio Andrade;5;264
-La Paz;5;264
-Mira;5;264
-San Gabriel;5;264
-Tulcán;5;264
-Alausí;5;265
-Cajabamba;5;265
-Chambo;5;265
-Chunchi;5;265
-Colta;5;265
-Guamote;5;265
-Guano;5;265
-Huigra;5;265
-Pallatanga;5;265
-Penipe;5;265
-Riobamba;5;265
-San Andrés;5;265
-San Juan;5;265
-Cumandá;5;265
-Chantillin;5;266
-El Corazón;5;266
-Guaytacama;5;266
-La Mana;5;266
-Lasso;5;266
-Latacunga;5;266
-Pastocalle;5;266
-Poalo;5;266
-Pujili;5;266
-Salcedo;5;266
-Saquisili;5;266
-Sigchos;5;266
-Tanicuchi;5;266
-Toacaso;5;266
-Mulalo;5;266
-El Guabo;5;267
-Huaquillas;5;267
-Machala;5;267
-Pasaje;5;267
-Piñas;5;267
-Puerto Bolívar;5;267
-Santa Rosa;5;267
-Zaruma;5;267
-Portovelo;5;267
-Arenillas;5;267
-Atahualpa;5;267
-Balsas;5;267
-Chilla;5;267
-Marcabelí;5;267
-Atacames;5;268
-Eloy Alfaro;5;268
-Esmeraldas;5;268
-La Unión;5;268
-Limones;5;268
-Muisne;5;268
-Quininde;5;268
-Rioverde;5;268
-San Lorenzo;5;268
-Sua;5;268
-Tonsupa;5;268
-La Concordia;5;268
-La Independencia;5;268
-Tonchigüé;5;268
-Same Casablanca;5;268
-Borbón;5;268
-Puerto Baquerizo Moreno;5;269
-Puerto Ayora;5;269
-Santa Cruz;5;269
-Isabela;5;269
-Daule;5;270
-Durán;5;270
-El Empalme;5;270
-El Triunfo;5;270
-Guayaquil;5;270
-Milagro;5;270
-Naranjal;5;270
-Naranjito;5;270
-Playas;5;270
-Balzar;5;270
-Alfredo Baquerizo Moreno;5;270
-Balao;5;270
-Colimes;5;270
-Palestina;5;270
-Pedro Carbo;5;270
-Samborondon;5;270
-Santa Lucia;5;270
-Urbina Jado;5;270
-Yaguachi;5;270
-Ancon;5;270
-Taura;5;270
-Ambuqui;5;271
-Atuntaqui;5;271
-Cotacachi;5;271
-Ibarra;5;271
-Otavalo;5;271
-Pimampiro;5;271
-San Antonio de Ibarra;5;271
-San Miguel de Urcuqui;5;271
-San Pablo;5;271
-Tumbabiro;5;271
-Loja;5;272
-Macara;5;272
-Catamayo;5;272
-Cariamanga;5;272
-Celica;5;272
-Chaguarpamba;5;272
-Espindola;5;272
-Gonzanama;5;272
-Catacocha;5;272
-Alamor;5;272
-Saraguro;5;272
-Sozoranga;5;272
-Zapotillo;5;272
-Pindal;5;272
-Quilanga;5;272
-Babahoyo;5;273
-Buena Fe;5;273
-Puebloviejo;5;273
-Quevedo;5;273
-Ventanas;5;273
-Vinces;5;273
-Baba;5;273
-Montalvo;5;273
-Catarama;5;273
-Valencia;5;273
-Bahia de Caraquez;5;274
-Chone;5;274
-El Carmen;5;274
-Jipijapa;5;274
-Manta;5;274
-Montecristi;5;274
-Pedernales;5;274
-Portoviejo;5;274
-Puerto Lopez;5;274
-San Vicente;5;274
-Santa Ana;5;274
-Pichincha;5;274
-Calceta;5;274
-Flavio Alfaro;5;274
-Junin;5;274
-Pajan;5;274
-Rocafuerte;5;274
-Tosagua;5;274
-Veinticuatro De Mayo;5;274
-Jama;5;274
-Macas;5;275
-Gualaquiza;5;275
-Limon Indanza;5;275
-Santiago;5;275
-Sucua;5;275
-Tena;5;276
-Archidona;5;276
-Baeza;5;276
-El Chaco;5;276
-Carlos Julio Arosemena Tola;5;276
-Francisco de Orellana;5;277
-La Joya de los Sachas;5;277
-Loreto;5;277
-Nuevo Rocafuerte;5;277
-Mera;5;278
-Palora;5;278
-Puyo;5;278
-Shell;5;278
-Arajuno;5;278
-Santa Clara;5;278
-Cayambe;5;279
-Conocoto;5;279
-Cumbaya;5;279
-Machachi;5;279
-Pedro Vicente Maldonado;5;279
-Puerto Quito;5;279
-Quito;5;279
-San Miguel de los Bancos;5;279
-Sangolquí;5;279
-Santo Domingo de los Colorados;5;279
-Tabacundo;5;279
-Alangasi;5;279
-Amaguaña;5;279
-San Rafael;5;279
-Calderon;5;279
-Aloag;5;279
-El Quinche;5;279
-Guayllabamba;5;279
-La Merced;5;279
-Mindo;5;279
-Nayon;5;279
-Pifo;5;279
-Pintag;5;279
-Pomasqui;5;279
-Puembo;5;279
-San Antonio de Pichincha;5;279
-Tababela;5;279
-Tumbaco;5;279
-Yaruqui;5;279
-Pusuqui;5;279
-Tambillo;5;279
-El Coca;5;279
-Santa Elena;5;280
-La Libertad;5;280
-Salinas;5;280
-Santo Domingo;5;281
-Alluriquin;5;281
-Luz de América;5;281
-Valle Hermoso;5;281
-Gonzalo de Pizarro;5;282
-Nueva Loja;5;282
-Putumayo;5;282
-Shushufindi;5;282
-Sucumbios;5;282
-Lago Agrio;5;282
-Cascales;5;282
-Cuyabeno;5;282
-Ambato;5;283
-Baños;5;283
-Cevallos;5;283
-Izamba;5;283
-Mocha;5;283
-Patate;5;283
-Pelileo;5;283
-Pillaro;5;283
-Quero;5;283
-Quisapincha;5;283
-Tisaleo;5;283
-Zamora;5;284
-Chinchipe;5;284
-Nangaritza;5;284
-Yacuambi;5;284
-Yantzaza;5;284
+nombres,id_catalogo,id_detalle
+Europa,1,
+Asia,1,
+África,1,
+Oceanía,1,
+América del Norte,1,
+América del Sur,1,
+América Central,1,
+Antártida,1,
+Antártida,2,8
+Afganistán,2,2
+Albania,2,1
+Alemania,2,1
+Algeria,2,3
+Andorra,2,1
+Angola,2,3
+Anguila,2,3
+Antigua y Barbuda,2,7
+Antillas Neerlandesas,2,3
+Arabia Saudita,2,2
+Argentina,2,6
+Armenia,2,2
+Aruba,2,7
+Australia,2,4
+Austria,2,1
+Azerbayán,2,2
+Bélgica,2,1
+Bahamas,2,7
+Bahrein,2,2
+Bangladesh,2,2
+Barbados,2,7
+Belice,2,7
+Benín,2,3
+Bhután,2,2
+Bielorrusia,2,1
+Birmania,2,2
+Bolivia,2,6
+Bosnia y Herzegovina,2,1
+Botsuana,2,3
+Brasil,2,6
+Brunéi,2,2
+Bulgaria,2,1
+Burkina Faso,2,3
+Burundi,2,3
+Cabo Verde,2,3
+Camboya,2,2
+Camerún,2,3
+Canadá,2,5
+Chad,2,3
+Chile,2,6
+China,2,2
+Chipre,2,1
+Ciudad del Vaticano,2,1
+Colombia,2,6
+Comoras,2,3
+Congo,2,3
+Corea del Norte,2,2
+Corea del Sur,2,2
+Costa de Marfil,2,3
+Costa Rica,2,7
+Croacia,2,1
+Cuba,2,7
+Dinamarca,2,1
+Dominica,2,7
+Ecuador,2,6
+Egipto,2,3
+El Salvador,2,7
+Emiratos Árabes Unidos,2,2
+Eritrea,2,3
+Eslovaquia,2,1
+Eslovenia,2,1
+España,2,1
+Estados Unidos de América,2,5
+Estonia,2,1
+Etiopía,2,3
+Filipinas,2,2
+Finlandia,2,1
+Fiyi,2,4
+Francia,2,1
+Gabón,2,3
+Gambia,2,3
+Georgia,2,2
+Ghana,2,3
+Gibraltar,2,3
+Granada,2,7
+Grecia,2,1
+Groenlandia,2,3
+Guadalupe,2,3
+Guam,2,3
+Guatemala,2,7
+Guayana Francesa,2,3
+Guernsey,2,3
+Guinea,2,3
+Guinea Ecuatorial,2,3
+Guinea-Bissau,2,3
+Guyana,2,6
+Haití,2,7
+Honduras,2,7
+Hong kong,2,3
+Hungría,2,1
+India,2,2
+Indonesia,2,2
+Irán,2,2
+Irak,2,2
+Irlanda,2,1
+Isla Bouvet,2,3
+Isla de Man,2,3
+Isla de Navidad,2,3
+Isla Norfolk,2,3
+Islandia,2,1
+Islas Bermudas,2,3
+Islas Caimán,2,3
+Islas Cocos (Keeling),2,3
+Islas Cook,2,3
+Islas de Åland,2,3
+Islas Feroe,2,3
+Islas Georgias del Sur y Sandwich del Sur,2,3
+Islas Heard y McDonald,2,3
+Islas Maldivas,2,3
+Islas Malvinas,2,3
+Islas Marianas del Norte,2,3
+Islas Marshall,2,4
+Islas Pitcairn,2,3
+Islas Salomón,2,4
+Islas Turcas y Caicos,2,7
+Islas Ultramarinas Menores de Estados Unidos,2,3
+Islas Vírgenes Británicas,2,7
+Islas Vírgenes de los Estados Unidos,2,3
+Israel,2,2
+Italia,2,1
+Jamaica,2,3
+Japón,2,2
+Jersey,2,3
+Jordania,2,2
+Kazajistán,2,2
+Kenia,2,3
+Kirgizstán,2,2
+Kiribati,2,4
+Kuwait,2,2
+Líbano,2,2
+Laos,2,2
+Lesoto,2,3
+Letonia,2,1
+Liberia,2,3
+Libia,2,3
+Liechtenstein,2,1
+Lituania,2,1
+Luxemburgo,2,1
+México,2,5
+Mónaco,2,1
+Macao,2,3
+Macedônia,2,1
+Madagascar,2,3
+Malasia,2,2
+Malawi,2,3
+Mali,2,3
+Malta,2,1
+Marruecos,2,3
+Martinica,2,3
+Mauricio,2,3
+Mauritania,2,3
+Mayotte,2,3
+Micronesia,2,4
+Moldavia,2,1
+Mongolia,2,2
+Montenegro,2,1
+Montserrat,2,3
+Mozambique,2,3
+Namibia,2,3
+Nauru,2,4
+Nepal,2,2
+Nicaragua,2,7
+Niger,2,3
+Nigeria,2,3
+Niue,2,3
+Noruega,2,1
+Nueva Caledonia,2,3
+Nueva Zelanda,2,4
+Omán,2,2
+Países Bajos,2,1
+Pakistán,2,2
+Palau,2,4
+Palestina,2,3
+Panamá,2,7
+Papúa Nueva Guinea,2,4
+Paraguay,2,6
+Perú,2,6
+Polinesia Francesa,2,3
+Polonia,2,1
+Portugal,2,1
+Puerto Rico,2,7
+Qatar,2,3
+Reino Unido,2,1
+República Centroafricana,2,3
+República Checa,2,1
+República Dominicana,2,7
+Reunión,2,3
+Ruanda,2,3
+Rumanía,2,1
+Rusia,2,1
+Sahara Occidental,2,3
+Samoa,2,4
+Samoa Americana,2,3
+San Bartolomé,2,3
+San Cristóbal y Nieves,2,3
+San Marino,2,1
+San Martín (Francia),2,3
+San Pedro y Miquelón,2,3
+San Vicente y las Granadinas,2,3
+Santa Elena,2,3
+Santa Lucía,2,7
+Santo Tomé y Príncipe,2,3
+Senegal,2,3
+Serbia,2,1
+Seychelles,2,3
+Sierra Leona,2,3
+Singapur,2,2
+Siria,2,2
+Somalia,2,3
+Sri lanka,2,2
+Sudáfrica,2,3
+Sudán,2,3
+Suecia,2,1
+Suiza,2,1
+Surinám,2,6
+Svalbard y Jan Mayen,2,3
+Swazilandia,2,3
+Tadjikistán,2,2
+Tailandia,2,2
+Taiwán,2,3
+Tanzania,2,3
+Territorio Británico del Océano Índico,2,3
+Territorios Australes y Antárticas Franceses,2,3
+Timor Oriental,2,2
+Togo,2,3
+Tokelau,2,3
+Tonga,2,4
+Trinidad y Tobago,2,7
+Tunez,2,3
+Turkmenistán,2,3
+Turquía,2,2
+Tuvalu,2,4
+Ucrania,2,1
+Uganda,2,3
+Uruguay,2,6
+Uzbekistán,2,2
+Vanuatu,2,4
+Venezuela,2,6
+Vietnam,2,2
+Wallis y Futuna,2,3
+Yemen,2,2
+Yibuti,2,3
+Zambia,2,3
+Zimbabue,2,3
+Zona 1,3,64
+Zona 2,3,64
+Zona 3,3,64
+Zona 4,3,64
+Zona 5,3,64
+Zona 6,3,64
+Zona 7,3,64
+Azuay,4,259
+Bolívar,4,258
+Cañar,4,259
+Carchi,4,254
+Chimborazo,4,256
+Cotopaxi,4,256
+El Oro,4,260
+Esmeraldas,4,254
+Galápagos,4,258
+Guayas,4,258
+Imbabura,4,254
+Loja,4,260
+Los Ríos,4,258
+Manabí,4,257
+Morona Santiago,4,259
+Napo,4,255
+Orellana,4,255
+Pastaza,4,256
+Pichincha,4,255
+Santa Elena,4,258
+Santo Domingo de los Tsáchilas,4,257
+Sucumbíos,4,254
+Tunguragua,4,256
+Zamora Chinchipe,4,260
+Cuenca,5,261
+Gualaceo,5,261
+Paute,5,261
+Santa Isabel,5,261
+Girón,5,261
+Nabon,5,261
+Pucara,5,261
+San Fernando,5,261
+Sigsig,5,261
+Caluma,5,262
+Chillanes,5,262
+Echeandía,5,262
+Guaranda,5,262
+La Asunción,5,262
+La Magdalena,5,262
+San José De Chimbo,5,262
+San Miguel,5,262
+Las Naves,5,262
+Azogues,5,263
+Cañar,5,263
+La Troncal,5,263
+Biblian,5,263
+Bolívar,5,264
+El Angel,5,264
+Huaca,5,264
+Julio Andrade,5,264
+La Paz,5,264
+Mira,5,264
+San Gabriel,5,264
+Tulcán,5,264
+Alausí,5,265
+Cajabamba,5,265
+Chambo,5,265
+Chunchi,5,265
+Colta,5,265
+Guamote,5,265
+Guano,5,265
+Huigra,5,265
+Pallatanga,5,265
+Penipe,5,265
+Riobamba,5,265
+San Andrés,5,265
+San Juan,5,265
+Cumandá,5,265
+Chantillin,5,266
+El Corazón,5,266
+Guaytacama,5,266
+La Mana,5,266
+Lasso,5,266
+Latacunga,5,266
+Pastocalle,5,266
+Poalo,5,266
+Pujili,5,266
+Salcedo,5,266
+Saquisili,5,266
+Sigchos,5,266
+Tanicuchi,5,266
+Toacaso,5,266
+Mulalo,5,266
+El Guabo,5,267
+Huaquillas,5,267
+Machala,5,267
+Pasaje,5,267
+Piñas,5,267
+Puerto Bolívar,5,267
+Santa Rosa,5,267
+Zaruma,5,267
+Portovelo,5,267
+Arenillas,5,267
+Atahualpa,5,267
+Balsas,5,267
+Chilla,5,267
+Marcabelí,5,267
+Atacames,5,268
+Eloy Alfaro,5,268
+Esmeraldas,5,268
+La Unión,5,268
+Limones,5,268
+Muisne,5,268
+Quininde,5,268
+Rioverde,5,268
+San Lorenzo,5,268
+Sua,5,268
+Tonsupa,5,268
+La Concordia,5,268
+La Independencia,5,268
+Tonchigüé,5,268
+Same Casablanca,5,268
+Borbón,5,268
+Puerto Baquerizo Moreno,5,269
+Puerto Ayora,5,269
+Santa Cruz,5,269
+Isabela,5,269
+Daule,5,270
+Durán,5,270
+El Empalme,5,270
+El Triunfo,5,270
+Guayaquil,5,270
+Milagro,5,270
+Naranjal,5,270
+Naranjito,5,270
+Playas,5,270
+Balzar,5,270
+Alfredo Baquerizo Moreno,5,270
+Balao,5,270
+Colimes,5,270
+Palestina,5,270
+Pedro Carbo,5,270
+Samborondon,5,270
+Santa Lucia,5,270
+Urbina Jado,5,270
+Yaguachi,5,270
+Ancon,5,270
+Taura,5,270
+Ambuqui,5,271
+Atuntaqui,5,271
+Cotacachi,5,271
+Ibarra,5,271
+Otavalo,5,271
+Pimampiro,5,271
+San Antonio de Ibarra,5,271
+San Miguel de Urcuqui,5,271
+San Pablo,5,271
+Tumbabiro,5,271
+Loja,5,272
+Macara,5,272
+Catamayo,5,272
+Cariamanga,5,272
+Celica,5,272
+Chaguarpamba,5,272
+Espindola,5,272
+Gonzanama,5,272
+Catacocha,5,272
+Alamor,5,272
+Saraguro,5,272
+Sozoranga,5,272
+Zapotillo,5,272
+Pindal,5,272
+Quilanga,5,272
+Babahoyo,5,273
+Buena Fe,5,273
+Puebloviejo,5,273
+Quevedo,5,273
+Ventanas,5,273
+Vinces,5,273
+Baba,5,273
+Montalvo,5,273
+Catarama,5,273
+Valencia,5,273
+Bahia de Caraquez,5,274
+Chone,5,274
+El Carmen,5,274
+Jipijapa,5,274
+Manta,5,274
+Montecristi,5,274
+Pedernales,5,274
+Portoviejo,5,274
+Puerto Lopez,5,274
+San Vicente,5,274
+Santa Ana,5,274
+Pichincha,5,274
+Calceta,5,274
+Flavio Alfaro,5,274
+Junin,5,274
+Pajan,5,274
+Rocafuerte,5,274
+Tosagua,5,274
+Veinticuatro De Mayo,5,274
+Jama,5,274
+Macas,5,275
+Gualaquiza,5,275
+Limon Indanza,5,275
+Santiago,5,275
+Sucua,5,275
+Tena,5,276
+Archidona,5,276
+Baeza,5,276
+El Chaco,5,276
+Carlos Julio Arosemena Tola,5,276
+Francisco de Orellana,5,277
+La Joya de los Sachas,5,277
+Loreto,5,277
+Nuevo Rocafuerte,5,277
+Mera,5,278
+Palora,5,278
+Puyo,5,278
+Shell,5,278
+Arajuno,5,278
+Santa Clara,5,278
+Cayambe,5,279
+Conocoto,5,279
+Cumbaya,5,279
+Machachi,5,279
+Pedro Vicente Maldonado,5,279
+Puerto Quito,5,279
+Quito,5,279
+San Miguel de los Bancos,5,279
+Sangolquí,5,279
+Santo Domingo de los Colorados,5,279
+Tabacundo,5,279
+Alangasi,5,279
+Amaguaña,5,279
+San Rafael,5,279
+Calderon,5,279
+Aloag,5,279
+El Quinche,5,279
+Guayllabamba,5,279
+La Merced,5,279
+Mindo,5,279
+Nayon,5,279
+Pifo,5,279
+Pintag,5,279
+Pomasqui,5,279
+Puembo,5,279
+San Antonio de Pichincha,5,279
+Tababela,5,279
+Tumbaco,5,279
+Yaruqui,5,279
+Pusuqui,5,279
+Tambillo,5,279
+El Coca,5,279
+Santa Elena,5,280
+La Libertad,5,280
+Salinas,5,280
+Santo Domingo,5,281
+Alluriquin,5,281
+Luz de América,5,281
+Valle Hermoso,5,281
+Gonzalo de Pizarro,5,282
+Nueva Loja,5,282
+Putumayo,5,282
+Shushufindi,5,282
+Sucumbios,5,282
+Lago Agrio,5,282
+Cascales,5,282
+Cuyabeno,5,282
+Ambato,5,283
+Baños,5,283
+Cevallos,5,283
+Izamba,5,283
+Mocha,5,283
+Patate,5,283
+Pelileo,5,283
+Pillaro,5,283
+Quero,5,283
+Quisapincha,5,283
+Tisaleo,5,283
+Zamora,5,284
+Chinchipe,5,284
+Nangaritza,5,284
+Yacuambi,5,284
+Yantzaza,5,284
