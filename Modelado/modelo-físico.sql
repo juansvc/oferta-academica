@@ -3,21 +3,21 @@
 CREATE TABLE areas
 (
 id SERIAL NOT NULL UNIQUE ,
-nombre VARCHAR(20) UNIQUE ,
+nombre VARCHAR(200) UNIQUE ,
 CONSTRAINT "areas_pkey" PRIMARY KEY (id)
 );
 
 CREATE TABLE catalogo
 (
 id SERIAL NOT NULL UNIQUE ,
-detalle VARCHAR(25),
+detalle VARCHAR(200),
 CONSTRAINT "catalogo_pkey" PRIMARY KEY (id)
 );
 
 CREATE TABLE "detalle_catalogo"
 (
 id SERIAL NOT NULL UNIQUE ,
-nombre VARCHAR(25),
+nombre VARCHAR(200),
 "id_catalogo" INTEGER NOT NULL,
 "id_relacion" INTEGER,
 CONSTRAINT "detalle_catalogo_pkey" PRIMARY KEY (id)
@@ -26,11 +26,11 @@ CONSTRAINT "detalle_catalogo_pkey" PRIMARY KEY (id)
 CREATE TABLE ies
 (
 id SERIAL NOT NULL UNIQUE ,
-acronimo CHARACTER(150) UNIQUE ,
+acronimo CHARACTER(200) UNIQUE ,
 nombre VARCHAR(200) UNIQUE ,
-tipo VARCHAR(15),
+tipo VARCHAR(200),
 categoria CHAR(2),
-"sitio_web" VARCHAR(150) UNIQUE ,
+"sitio_web" VARCHAR(200) UNIQUE ,
 "total_docentes" INTEGER,
 "total_docentes_phd" INTEGER,
 CONSTRAINT "ies_pkey" PRIMARY KEY (id)
@@ -40,10 +40,10 @@ CREATE TABLE extension
 (
 id SERIAL NOT NULL UNIQUE ,
 "id_ies" INTEGER,
-direccion VARCHAR(size),
-telefono VARCHAR(20),
-latitud VARCHAR(20),
-longitud VARCHAR(20),
+direccion VARCHAR(200),
+telefono VARCHAR(200),
+latitud VARCHAR(200),
+longitud VARCHAR(200),
 "id_ciudad" INTEGER,
 CONSTRAINT "extension_pkey" PRIMARY KEY (id)
 );
@@ -69,10 +69,10 @@ CREATE TABLE matriz
 (
 id SERIAL NOT NULL UNIQUE ,
 "id_ies" INTEGER,
-direccion VARCHAR(size),
-telefono VARCHAR(20),
-latitud VARCHAR(20),
-longitud VARCHAR(20),
+direccion VARCHAR(200),
+telefono VARCHAR(200),
+latitud VARCHAR(200),
+longitud VARCHAR(200),
 "id_ciudad" INTEGER,
 CONSTRAINT "matriz_pkey" PRIMARY KEY (id)
 );
@@ -80,7 +80,7 @@ CONSTRAINT "matriz_pkey" PRIMARY KEY (id)
 CREATE TABLE modalidad
 (
 id SERIAL NOT NULL UNIQUE ,
-nombre VARCHAR(20),
+nombre VARCHAR(200),
 descripcion VARCHAR(200),
 CONSTRAINT "modalidad_pkey" PRIMARY KEY (id)
 );
@@ -96,18 +96,17 @@ CONSTRAINT "carreras_modalidad_pkey" PRIMARY KEY (id)
 CREATE TABLE "nivel_formacion"
 (
 id SERIAL NOT NULL UNIQUE ,
-nivel VARCHAR(20),
+nivel VARCHAR(200),
 CONSTRAINT "nivel_formacion_pkey" PRIMARY KEY (id)
 );
 
 CREATE TABLE carreras
 (
 id SERIAL NOT NULL UNIQUE ,
-nombre VARCHAR(50) UNIQUE ,
-"tipo_formacion" VARCHAR(15),
+nombre VARCHAR(200) UNIQUE ,
+"tipo_formacion" VARCHAR(200),
 "id_area" INTEGER,
 "id_nivel" INTEGER,
-"id_modalidad" INTEGER NOT NULL,
 CONSTRAINT "carreras_pkey" PRIMARY KEY (id)
 );
 
@@ -115,10 +114,10 @@ CREATE TABLE sede
 (
 id SERIAL NOT NULL UNIQUE ,
 "id_ies" INTEGER,
-direccion VARCHAR(size),
-telefono VARCHAR(20),
-latitud VARCHAR(20),
-longitud VARCHAR(20),
+direccion VARCHAR(200),
+telefono VARCHAR(200),
+latitud VARCHAR(200),
+longitud VARCHAR(200),
 "id_ciudad" INTEGER,
 CONSTRAINT "sede_pkey" PRIMARY KEY (id)
 );
