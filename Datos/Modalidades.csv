@@ -1,6 +1,6 @@
-nombre;descripcion
-Distancia;Educación dirigida a personas que no pueden asistir a clases presenciales ya sea por trabajo, distancia, etc. 
-Dual;Es la combinación de la modalidad Presencial y a Distancia
-Presencial;Educación dirigida a personas que no trabajan y pueden dedicarse todo su tiempo a los estudios
-Semipresencial;Educación enfocada en sesiones presenciales y sesiones a distancia en un ambiente virtual.
-En Línea;Educación a distancia que utiliza internet y sus herramientas tecnológicas para el proceso de enseñanza
+id,nombre,descripcion
+1,Distancia,"Educación dirigida a personas que no pueden asistir a clases presenciales ya sea por trabajo, distancia, etc. "
+2,Dual,Es la combinación de la modalidad Presencial y a Distancia
+3,Presencial,Educación dirigida a personas que no trabajan y pueden dedicarse todo su tiempo a los estudios
+4,Semipresencial,Educación enfocada en sesiones presenciales y sesiones a distancia en un ambiente virtual.
+5,En Línea,Educación a distancia que utiliza internet y sus herramientas tecnológicas para el proceso de enseñanza
