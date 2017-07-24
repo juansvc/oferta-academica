@@ -1,0 +1,64 @@
+{% extends "master.html" %}
+{% load staticfiles %}
+
+{% block body %}
+<br><br><br><br><br><br><br>
+<div class="row">
+	<div id="dos" class="col-md-6 col-md-offset-3">
+		<form role="form" action="carreras/" method="get">
+			<div class="input-group">
+				<input type="text" name="buscar_universidad" class="form-control" placeholder="Nombre de la Universidad">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="submit">Buscar Carreras</button>
+				</span>
+			</div>
+		</form>
+	</div>  
+</div>
+<p>Número de carreras: {{ cantidad_carreras }}</p>
+<div id="tres" class="row">
+	{% for institucion in carreras %}
+	<div class="list-u">
+		<a href="universidad/?id={{institucion.id}}" data-toggle="modal">
+			<div class="title">
+				<a href="universidad/?id={{institucion.id}}">
+					<h4>{{carreras.nombre}}</h4>
+				</a>
+			</div>
+			<div class="resume">
+				<ul>
+					<li><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Acronimo: {{carreras.acronimo}}<br></li>
+					<li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Sitio Web: {{carreras.sitio_web}}<br></li>
+					<li><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Tipo de Universidad: {{carreras.tipo}}<br></li>
+					<li><span class="glyphicon glyphicon-sort-by-attributes-alt" aria-hidden="true"></span> Categoria: {{carreras.categoria}}<br></li>
+				</ul>
+			</div>
+		</a>
+	</div>
+	
+	{% endfor %}
+</div>
+	<div id="4" class="col-lg-12 text-center">
+				<nav>
+				  <ul class="pagination">
+				  	{% if carreras.has_previous %}
+				  		{% if buscar_carreras %}
+				    		<li><a href="?page={{carreras.previous_page_number}}&buscar_carreras={{buscar_universidad}}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+			    		{% else %}
+			    			<li><a href="?page={{carreras.previous_page_number}}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+			    		{% endif %}
+				    {% endif %}
+				    
+				    <li class="active"><a href="">{{ carreras.number }} de {{ carreras.paginator.num_pages }}<span class="sr-only">(current)</span></a></li>
+				    
+				    {% if carreras.has_next %}
+				    	{% if buscar_carreras %}
+				    		<li><a href="?page={{carreras.next_page_number}}&buscar_universidad={{buscar_carreras}}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+			    		{% else %}
+			    			<li><a href="?page={{carreras.next_page_number}}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+			    		{% endif %}
+				    {% endif %}
+				  </ul>
+				</nav>
+			</div>	
+{% endblock %}

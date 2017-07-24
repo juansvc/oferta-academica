@@ -986,3 +986,11 @@ width : 731px !important ;
 	font-size: 2em !important;
 	font-weight: bold  !important;
 }
+
+#divmap{
+	height: 500px !important;
+}
+
+#box-carreras ul li{
+	font-size: 1em !important;
+}
