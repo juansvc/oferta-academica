@@ -1,0 +1,70 @@
+{% extends "master.html" %}
+{% load staticfiles %}
+
+{% block body %}
+<br><br><br><br><br><br><br><br>
+<div class="container">
+
+
+    <form role="form" method="get">
+      <div class="input-group">
+    <select id="u1" name="u1">
+        <option value="0" selected="selected">Universidad 1</option>
+        {% for m in matriculados %}
+            {% if m.genero == "HOMBRES" %}
+            <option value="{{m.id_ies.id}}">{{m.id_ies.nombre}}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+    <select id="u2" name="u2">
+        <option value="0" selected="selected">Universidad 2</option>
+        {% for m in matriculados %}
+            {% if m.genero == "HOMBRES" %}
+            <option value="{{m.id_ies.id}}">{{m.id_ies.nombre}}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+    <button type="submit">Comparar</button>
+    </div>
+    </form>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart', 'bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+
+        var button = document.getElementById('change-chart');
+        var chartDiv = document.getElementById('chart_div');
+
+        var data = google.visualization.arrayToDataTable([
+          ['Universidades', 'HOMBRES', 'MUJERES'],
+          ['{{m1.0.id_ies.nombre}}',{{m1.0.total}},{{m1.1.total}}],
+          ['{{m2.0.id_ies.nombre}}',{{m2.0.total}},{{m2.1.total}}]
+          
+        ]);
+
+        var materialOptions = {
+          width: 900,
+          chart: {
+            title: 'Matriculados por género',
+            subtitle: 'Número total de estudiantes matriculados en cada Universidad por género'
+          }
+        };
+
+        function drawMaterialChart() {
+          var materialChart = new google.charts.Bar(chartDiv);
+          materialChart.draw(data, google.charts.Bar.convertOptions(materialOptions));
+        }
+
+        drawMaterialChart();
+
+        
+    };
+    </script>
+    <!-- <button id="change-chart">Cambiar U</button> -->
+
+    <br><br>
+    <div id="chart_div" style="width: 800px; height: 500px;"></div>
+{% endblock %}

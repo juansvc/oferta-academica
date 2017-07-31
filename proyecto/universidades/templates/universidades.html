@@ -2,12 +2,13 @@
 {% load staticfiles %}
 
 {% block body %}
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<div class="container">
 <div class="row">
 	<div id="dos" class="col-md-6 col-md-offset-3">
-		<form role="form" action="universidades/" method="get">
+		<form role="form" method="get">
 			<div class="input-group">
-				<input type="text" name="buscar_universidad" class="form-control" placeholder="Nombre de la Universidad">
+				<input type="text" name="buscar_universidad" class="form-control" placeholder="Nombre o acrónimo de la Universidad">
 				<span class="input-group-btn">
 					<button class="btn btn-default" type="submit">Buscar Universidades</button>
 				</span>
@@ -15,16 +16,18 @@
 		</form>
 	</div>  
 </div>
-<p>Número de universidades: {{ cantidad_universidades }}</p>
-<div id="tres" class="row">
+<div class="row">
+Número de universidades: {{ cantidad_universidades }}<br><hr>
+
 	{% for institucion in universidades %}
-	<div class="list-u col-xs-3">
-		<a href="universidad?id={{institucion.id}}" data-toggle="modal">
+	<div class="col-md-3" id="bloques">
 			<div class="title">
 				<a href="universidad?id={{institucion.id}}">
 					<h4>{{institucion.nombre}}</h4>
 				</a>
 			</div>
+
+		<a href="universidad?id={{institucion.id}}">
 			<div class="resume">
 				<ul>
 					<li><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Acronimo: {{institucion.acronimo}}<br></li>
@@ -60,5 +63,5 @@
 				    {% endif %}
 				  </ul>
 				</nav>
-			</div>	
+			</div>	</div>
 {% endblock %}

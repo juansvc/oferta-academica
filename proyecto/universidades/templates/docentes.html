@@ -1,0 +1,66 @@
+{% extends "master.html" %}
+{% load staticfiles %}
+
+{% block body %}
+<br><br><br><br><br><br><br><br>
+<div class="container">
+
+
+    <form role="form" method="get">
+      <div class="input-group">
+    <select id="universidad1" name="universidad1">
+        <option value="0" selected="selected">Universidad 1</option>
+        {% for u in ies %}
+            <option value="{{u.id}}">{{u.nombre}}</option>
+        {% endfor %}
+    </select>
+    <select id="universidad2" name="universidad2">
+        <option value="0" selected="selected">Universidad 2</option>
+        {% for u in ies %}
+            <option value="{{u.id}}">{{u.nombre}}</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Comparar</button>
+    </div>
+    </form>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart', 'bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+
+        var button = document.getElementById('change-chart');
+        var chartDiv = document.getElementById('chart_div');
+
+        var data = google.visualization.arrayToDataTable([
+          ['Universidades', 'DOCENTES TOTALES', 'DOCENTES CON PHD'],
+          ['{{universidad1.nombre}}',{{universidad1.total_docentes}},{{universidad1.total_docentes_phd}}],
+          ['{{universidad2.nombre}}',{{universidad2.total_docentes}},{{universidad2.total_docentes_phd}}]
+          
+        ]);
+
+        var materialOptions = {
+          width: 900,
+          chart: {
+            title: 'Docentes con PHD',
+            subtitle: 'Número total de docentes acreditados en cada Universidad con PHD'
+          }
+        };
+
+        function drawMaterialChart() {
+          var materialChart = new google.charts.Bar(chartDiv);
+          materialChart.draw(data, google.charts.Bar.convertOptions(materialOptions));
+        }
+
+        drawMaterialChart();
+
+        
+    };
+    </script>
+    <!-- <button id="change-chart">Cambiar U</button> -->
+
+    <br><br>
+    <div id="chart_div" style="width: 800px; height: 500px;"></div>
+{% endblock %}

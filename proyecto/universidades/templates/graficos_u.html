@@ -1,0 +1,138 @@
+{% extends "master.html"%}
+{% load staticfiles %}
+
+{% block body %}
+  <br><br><br><br><br><br><br>
+  <div class="container">
+
+      <div class="caja">
+           <SELECT NAME="pago" onChange="grafica(this)">
+              <OPTION VALUE="categoria">Por Categoria</OPTION>
+              <OPTION VALUE="tipo">Por Tipo</OPTION> 
+              <OPTION VALUE="carreras">Por Area</OPTION>
+           </SELECT>
+      </div>
+      <hr>
+      <div class="graficas">
+        <div id="bar-cat"></div>
+        <div id="palet-tip"></div>
+        <div id="palet-area"></div>
+      </div>
+      
+  </div>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.arrayToDataTable([
+          ['Tipo', 'Cantidad'],
+              {%for u in tipos%}
+                ['{{u.tipo}}', {{u.dcount}}],
+              {%endfor%}
+        ]);
+
+        var options = {
+          title: 'Numero de Universidades por Tipo de Financiamiento',
+          titleTextStyle: {
+            color: '#A4A4A4'
+          },
+          is3D: true,
+          pieSliceText: 'label',
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('palet-tip'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = new google.visualization.arrayToDataTable([
+          ['Categorias', 'Cantidad', { role: "style" }],
+              {%for u in categorias%}
+                ['{{u.categoria}}', {{u.dcount}}, '#703593'],
+              {%endfor%}
+        ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        title: "Número de Universidades por Categorias",
+        titleTextStyle: {
+            color: '#A4A4A4'
+          },
+        bar: {groupWidth: "85%"},
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById("bar-cat"));
+      chart.draw(view, options);
+  }
+  </script>
+
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.arrayToDataTable([
+          ['Area', 'Cantidad'],
+              {% for c in carreras %}
+                ['{{c.id_area.nombre}}', {{c.dcount}}],
+              {% endfor %}
+        ]);
+
+        var options = {
+          title: 'Numero de Carreras por Area',
+          titleTextStyle: {
+            color: '#A4A4A4'
+          },
+          pieHole: 0.3,
+          
+          
+          pieSliceText: 'label',
+          slices: {  7: {offset: 0.1},
+                    9: {offset: 0.13},
+                    1: {offset: 0.16},
+                    3: {offset: 0.2},
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('palet-area'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <script type="text/javascript">
+      function grafica(sel) {
+        if (sel.value=="categoria"){
+             $("#bar-cat").show().css("display", "block" );
+             $("#palet-tip").hide();
+             $("#palet-area").hide();
+
+        }else {
+             $("#bar-cat").hide();
+             $("#palet-tip").show().css("display", "block" );
+             $("#palet-area").hide();
+
+        }
+       
+      }
+
+    </script>
+
+
+  <body>
+    <!--Div that will hold the pie chart-->
+   
+  </body>
+{% endblock %}

@@ -2,7 +2,8 @@
 {% load staticfiles %}
 
 {% block body %}
-<br><br><br><br><br>
+<br><br><br><br><br><br>
+<div class="container">
 <section id="institucion">
 	<div id="contlocalidad" class="container">
 		<div class="row">
@@ -14,10 +15,12 @@
 						<strong>Tipo de Institución:</strong> {{institucion.tipo}}<br>
 						<strong>Categoria:</strong> {{institucion.categoria}}<br>
 						<strong>Sitio Web:</strong> <a href="{{institucion.sitio_web}}" target="_blank">{{institucion.sitio_web}}<br></a>
-						<strong>Direccion:</strong> {{matriz.direccion}}<br>
-						<strong>Telefono:</strong> {{matriz.telefono}}<br>
-						<strong>Ciudad:</strong> {{matriz.id_ciudad.nombre}}<br>
+						{% for m in matriz %}
+						<strong>Direccion:</strong> {{m.direccion}}<br>
+						<strong>Telefono:</strong> {{m.telefono}}<br>
+						<strong>Ciudad:</strong> {{m.id_ciudad.nombre}}<br>
 						<hr>
+						{% endfor %}
 						{% if institucion.n_docentes%}
 						<h5>Información de Docentes</h5>
 						<span class="glyphicon glyphicon-user" aria-hidden="true"></span><strong> Docentes: </strong> {{institucion.n_docentes}}<br>
@@ -41,54 +44,61 @@
 					<div id="map"></div>
 					<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 					<script >
+
+					
 						function initialize() {
-							var myLatlng = new google.maps.LatLng({{matriz.latitud}}, {{matriz.longitud}});
+							var myLatlng = new google.maps.LatLng({{matriz.0.latitud}}, {{matriz.0.longitud}});
 							var mapOptions = {
 								zoom: 7,
 								center: myLatlng
 							}
 							var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-							var marcador = new google.maps.LatLng({{matriz.latitud}}, {{matriz.longitud}});
-							var marker = new google.maps.Marker({
-								position: marcador,
-								map: map,
-								title: '{{institucion.nombre}}'
-							});
-							google.maps.event.addListener(marker, 'click', function(){
-								var popup = new google.maps.InfoWindow();
-								var note = '<h3>Matríz</h3><br>{{matriz.direccion}}<br>{{matriz.telefono}}';
-								popup.setContent(note);
-								popup.open(map, this);
-							})
-							// if ({{sede}}) {
-							// 	var marcador1 = new google.maps.LatLng({{sede.latitud}}, {{sede.longitud}});
-							// 	var marker1 = new google.maps.Marker({
-							// 		position: marcador1,
-							// 		map: map,
-							// 		title: '{{institucion.nombre}}'
-							// 	});
-							// 	google.maps.event.addListener(marker1, 'click', function(){
-							// 		var popup = new google.maps.InfoWindow();
-							// 		var note = '<h3>Sede</h3><br>{{sede.direccion}}<br>{{sede.telefono}}';
-							// 		popup.setContent(note);
-							// 		popup.open(map, this);
-							// 	})
-							// }
-							// if ({{extension}} == 1) {
-							// 	var marcador2 = new google.maps.LatLng({{extension.latitud}}, {{extension.longitud}});
-							// 	var marker2 = new google.maps.Marker({
-							// 		position: marcador2,
-							// 		map: map,
-							// 		title: '{{institucion.nombre}}'
-							// 	});
-							// 	google.maps.event.addListener(marker2, 'click', function(){
-							// 		var popup = new google.maps.InfoWindow();
-							// 		var note = '<h3>Extensión</h3><br>{{extension.direccion}}<br>{{extension.telefono}}';
-							// 		popup.setContent(note);
-							// 		popup.open(map, this);
-							// 	})
-							// }
+							{% for m in matriz %}
+								var marcador = new google.maps.LatLng({{m.latitud}}, {{m.longitud}});
+								var marker = new google.maps.Marker({
+									position: marcador,
+									icon: '{% static "img/matriz.png" %}',
+									map: map
+								});
+								google.maps.event.addListener(marker, 'click', function(){
+									var popup = new google.maps.InfoWindow();
+									var note = '<h4>Matríz</h4><br>{{m.direccion}}<br>{{m.telefono}}';
+									popup.setContent(note);
+									popup.open(map, this);
+								})
+							
+							{% endfor %}
+							{% for s in sede %}
+								var marcador = new google.maps.LatLng({{s.latitud}}, {{s.longitud}});
+								var marker = new google.maps.Marker({
+									position: marcador,
+									icon: '{% static "img/sede.png" %}',
+									map: map
+								});
+								google.maps.event.addListener(marker, 'click', function(){
+									var popup = new google.maps.InfoWindow();
+									var note = '<h4>Sede</h4><br>{{s.direccion}}<br>{{s.telefono}}';
+									popup.setContent(note);
+									popup.open(map, this);
+								})
+							
+							{% endfor %}
+							{% for e in extension %}
+								var marcador = new google.maps.LatLng({{e.latitud}}, {{e.longitud}});
+								var marker = new google.maps.Marker({
+									position: marcador,
+									icon: '{% static "img/extension.png" %}',
+									map: map
+								});
+								google.maps.event.addListener(marker, 'click', function(){
+									var popup = new google.maps.InfoWindow();
+									var note = '<h4>Extensión</h4><br>{{e.direccion}}<br>{{e.telefono}}';
+									popup.setContent(note);
+									popup.open(map, this);
+								})
+							
+							{% endfor %}
 
 						}
 						google.maps.event.addDomListener(window, 'load', initialize);
@@ -99,4 +109,5 @@
 
 </div>
 </section>
+</div>
 {% endblock%}
