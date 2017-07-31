@@ -13,7 +13,7 @@ Aplicación sobre la oferta académica de las universidades en el Ecuador:
 * Juan Carlos Morocho
 
 ### Estudiantes
-* Luis Tenesaca [@](https://twitter.com/)
+* Luis Tenesaca [@lvilla94](https://twitter.com/lvilla94)
 * Juan Sebastián Vivanco [@ju4nsvc](https://twitter.com/ju4n5vc)
 
 
